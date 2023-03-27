@@ -34,12 +34,12 @@ export const meta: MetaFunction = () => ({
 
 export default function App() {
   return (
-    <html lang="en" className="h-full">
+    <html lang="en" className="h-full flex flex-col">
       <head>
         <Meta />
         <Links />
       </head>
-      <body className="h-full">
+      <body className="flex-1 flex flex-col">
         <Outlet />
         <ScrollRestoration />
         <Scripts />
